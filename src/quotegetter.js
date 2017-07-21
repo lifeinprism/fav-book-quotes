@@ -4,7 +4,7 @@ window.onload = function() {
  
   //creates and formats a string with the book's quote, title and author
   let bookAuthorTitle = (object, index) => {
-    return object.quote + '<br>' + 'Title: ' + object.title + '<br>' + 'Author: ' + object.author;
+    return '<div id="quoteSpace">' + object.quote + '</div><hr><br><div id="authorSpace">' + object.author + '<br>' + object.title + '</div>';
   }
 
   //onclick, randomly choose book and outputs to quoteDiv

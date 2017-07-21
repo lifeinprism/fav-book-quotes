@@ -56,3 +56,26 @@ body, html {
   font-size: 25px;
   font-family: 'Seaweed Script';
 }
+footer {
+	width: 750px;
+	padding-top: 70px;
+	margin: 0 auto;
+
+}
+.floating-box {
+  display: table-cell;
+  vertical-align: middle;
+  width: 250px;
+  height: 60px;
+  margin: 10px;
+  text-align: center;
+  font-family: Gurajada;
+  font-size: 33px;
+}
+
+.floating-box a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
