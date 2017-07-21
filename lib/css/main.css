@@ -1,16 +1,58 @@
-body {
-	background-color: #ff6666;
-}
-
 h1 {
 	font-family: 'Bad Script';
 	vertical-align: middle;
 	display: table-cell;
+	font-size: 40px;
+}
+
+button {
+	display:block;
+	width: 20%;
+	margin: 0 auto;
+	position: relative;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	background-color: #24b2d6;
+	margin-top: 20px;
+	padding: 10px 0px 10px 0px;
+}
+
+body, html {
+	background-color: #ff6666;
+	margin: 0;
+	padding: 0;
 }
 
 #titleBlock {
-	width: 500px;
+  height: 150px;
+	width: 100%;
 	text-align: center;
-	display: table;
+	display: table; 
+	background-color: white;
+}
+
+#quoteDiv {
+  position: relative;
+  top: 25%;
+  transform: translateY(-50%);
+	padding: 40px 0px 40px 0px;	
+	width: 500px;
+	height: 300px;
 	margin: auto;
+}
+
+#quoteSpace {
+  padding-bottom: 30px;
+	font-family: Monospace;
+	font-size: 22px;
+}
+
+#authorSpace {
+  text-align: right;
+  padding: 10px 20px 0px 0px;
+  font-size: 25px;
+  font-family: 'Seaweed Script';
 }
