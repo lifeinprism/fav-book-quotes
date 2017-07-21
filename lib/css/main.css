@@ -1,0 +1,16 @@
+body {
+	background-color: #ff6666;
+}
+
+h1 {
+	font-family: 'Bad Script';
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#titleBlock {
+	width: 500px;
+	text-align: center;
+	display: table;
+	margin: auto;
+}

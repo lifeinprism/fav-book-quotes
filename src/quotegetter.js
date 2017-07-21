@@ -2,20 +2,19 @@ window.onload = function() {
 
   document.getElementById("quoteButton").onclick = function() {quotes()};
  
-  let bookAuthorTitle = function (object, index) {
-    return object.quote + '<br>' + 'from:' + object.title + '<br>' + 'by: ' + object.author;
+  //creates and formats a string with the book's quote, title and author
+  let bookAuthorTitle = (object, index) => {
+    return object.quote + '<br>' + 'Title: ' + object.title + '<br>' + 'Author: ' + object.author;
   }
 
-  let quotes = function quoteGetter() { 
+  //onclick, randomly choose book and outputs to quoteDiv
+  let quotes = () => { 
   	let randBook = Math.floor(Math.random() * quotesAndAuthor.length);
-  	console.log(randBook);
   	document.getElementById("quoteDiv").innerHTML = quotesAndAuthor.map(bookAuthorTitle)[randBook];
  
   }
+
+  //automatically displays a random quote onload
+  quotes();
   
 };
-
-
-
-//  used to print the book quote to the screen
-// 	document.getElementById("quoteDiv").innerHTML = quotesAndAuthor[randomBook].quote;
