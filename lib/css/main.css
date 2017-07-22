@@ -1,5 +1,6 @@
 h1 {
 	font-family: 'Bad Script';
+	color: #ffffff;
 	vertical-align: middle;
 	display: table-cell;
 	font-size: 40px;
@@ -21,9 +22,21 @@ button {
 }
 
 body, html {
-	background-color: #ff6666;
+	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
+}
+
+hr { 
+    display: block;
+    width: 75%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-top: 1px solid #ff6666;
 }
 
 #titleBlock {
@@ -31,7 +44,7 @@ body, html {
 	width: 100%;
 	text-align: center;
 	display: table; 
-	background-color: white;
+	background-color: #ff6666;
 }
 
 #quoteDiv {
@@ -75,7 +88,7 @@ footer {
 
 .floating-box a {
 	text-decoration: none;
-	color: #ffffff;
+	color: #ff6666;
 }
 
 

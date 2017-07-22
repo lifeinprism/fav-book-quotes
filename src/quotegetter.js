@@ -11,7 +11,6 @@ window.onload = function() {
   let quotes = () => { 
   	let randBook = Math.floor(Math.random() * quotesAndAuthor.length);
   	document.getElementById("quoteDiv").innerHTML = quotesAndAuthor.map(bookAuthorTitle)[randBook];
- 
   }
 
   //automatically displays a random quote onload
